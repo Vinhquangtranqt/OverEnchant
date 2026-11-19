@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "com.quang.enchantmod.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"mixins": [
+		"AnvilMenuMixin",
+		"EnchantCommandMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

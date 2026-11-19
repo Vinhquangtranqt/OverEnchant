@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "enchantmod",
+	"version": "${version}",
+	"name": "OverEnchant",
+	"description": "Apply any enchantment to any item at levels 1 through 255.",
+	"icon": "assets/enchantmod/icon.png",
+	"authors": [
+		"Quang"
+	],
+	"license": "CC0-1.0",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.quang.enchantmod.EnchantMod"
+		]
+	},
+	"mixins": [
+		"enchantmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
